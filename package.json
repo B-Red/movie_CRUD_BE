@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/B-Red/movie_CRUD_BE/issues"
   },
-  "homepage": "https://github.com/B-Red/movie_CRUD_BE#readme"
+  "homepage": "https://github.com/B-Red/movie_CRUD_BE#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
