@@ -18,7 +18,7 @@ module.exports = {
         return database('movies').insert(newMovie).returning('*')
     },
     //Delete and entity
-    deleteStudent(id){
+    deleteMovie(id){
         return database('movies').where('id', id).delete()
     },
     //updates an entity
