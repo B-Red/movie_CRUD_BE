@@ -3,7 +3,7 @@ const database = require('./database-connection')
 module.exports = {
     //returns whole table.
     listAll(){
-        return databases('movies')
+        return database('movies')
     },
     //returns a single entity by 'id'
     getById(id){
