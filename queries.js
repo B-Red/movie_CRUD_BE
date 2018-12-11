@@ -25,5 +25,4 @@ module.exports = {
     updateMovie(id, movie){
         return database('movies').where('id', id).update(movie).returning('*')
     }
-
 }
