@@ -27,7 +27,7 @@ app.delete('/:id', (req, res) => {
 })
 //edits a movie
 app.put('/:id', (req, res) => {
-    queries.updateMovie(req.params.id, req.body).then(data => res.json(data[0]))
+    queries.updateMovie(req.params.id, req.body).then(data => res.json(data))
 })
 //error handlers
 app.use(function (err, req, res, next) {
