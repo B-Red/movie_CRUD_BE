@@ -3,7 +3,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const queries = require('./queries')
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8888
 
 
 app.use(bodyParser.json())
@@ -27,7 +27,9 @@ app.delete('/:id', (req, res) => {
 })
 //edits a movie
 app.put('/:id', (req, res) => {
-    queries.updateMovie(req.params.id, req.body).then(data => res.json(data))
+    queries.updateMovie(req.params.id, req.body).then(data => {
+        console.log(req.body)
+        res.json(data)})
 })
 //error handlers
 app.use(function (err, req, res, next) {
