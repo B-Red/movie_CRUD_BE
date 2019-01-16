@@ -1,4 +1,8 @@
 # Welcome!
+This application is built to demonstrate my abilites to create a full stack application.
+
+## Technologies used:
+React.js, Bootstrap, Knex.js, express.js, heroku, and postgreSQL.
 
 ### ERD Link
 [ERD](https://drive.google.com/open?id=1dVM2iMyfBNMJ2EshqI6UL931ixQwiL3x "Entity Relationship Diagram")
@@ -8,4 +12,4 @@
 [Deplyed DB](https://reds-movie-backend.herokuapp.com/ "Deployed Database")
 
 ### Front-End Repo
-   *Does not exist yet.
+[Front-End repo](https://github.com/B-Red/movie_CRUD_FE "Front-End Client")
